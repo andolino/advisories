@@ -1,0 +1,7 @@
+{
+  "name": "advisories-vue",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
