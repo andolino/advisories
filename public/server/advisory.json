@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "type": "Health",
+    "title" : "Philippines' COVID-19 cases breach 70,000",
+    "desc": "The Philippines now has 70,764 confirmed COVID-19 cases after the Department of Health (DOH) reported 1,951 new cases on Tuesday, July 21. The DOH reported two new deaths due to the coronavirus disease, bringing the death toll to 1,837, while the recoveries are up by 209, raising total recoveries to 23,281 "
+  },
+  {
+    "id": 2,
+    "type": "Education",
+    "title" : "DepEd welcomes law allowing school opening beyond August",
+    "desc": "The Department of Education (DepEd) welcomed on Monday the signing of Republic Act (RA) 11480 which allows the movement of the opening of classes beyond August during times of emergency. However, it maintained that the August 24 opening of classes still stands. "
+    
+  },
+  {
+    "id": 3,
+    "type": "Sports / Wellness",
+    "title" : "PH athletes build resilience in pandemic",
+    "desc": "As regular sports continue to be on hiatus, Filipino athletes channel their energies to other purpose in order to keep themselves busy and mentally healthy during the pandemic Not only do they get creative in finding ways to train during quarantine, but they also started initiatives to help their local communities. "
+    
+  }
+  
+]
