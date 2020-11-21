@@ -1,10 +1,6 @@
 <template>
-  
   <ion-page>
     <ion-header>
-      <ion-toolbar>
-        <ion-title>Payments</ion-title>
-      </ion-toolbar>
     </ion-header>
     <ion-content :fullscreen="true">
       <div class="img_loader"><img src="../../public/images/comming-soon.png" style="z-index:9999"></div>

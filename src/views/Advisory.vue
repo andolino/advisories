@@ -1,10 +1,5 @@
 <template>
   <ion-page>
-    <ion-header>
-      <ion-toolbar>
-        <ion-title>Advisories</ion-title>
-      </ion-toolbar>
-    </ion-header>
     <ion-content :fullscreen="true">
       <ion-header collapse="condense">
         <ion-toolbar>
@@ -150,7 +145,7 @@
     mounted(){
       const ddd2 = this.getDataServer();
       ddd2.then(function(res){
-        console.log(res);
+        // console.log(res);
       });
     }
   });

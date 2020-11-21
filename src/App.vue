@@ -2,14 +2,17 @@
     <ion-app>
         <LoadingScreen :isLoading="isLoading" />
         <main v-if="!isLoading">
-          <p>Loading...</p>
+          <!-- <p>Loading...</p> -->
           <ion-router-outlet />
         </main>
     </ion-app>
 </template>
 
 <script lang="ts">
-import { IonApp, IonRouterOutlet } from '@ionic/vue';
+import { 
+    IonApp, 
+    IonRouterOutlet 
+} from '@ionic/vue';
 import { defineComponent } from 'vue';
 
 import LoadingScreen from "./components/LoadingScreen.vue";

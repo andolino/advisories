@@ -1,17 +1,6 @@
 <template>
   <ion-page>
-    <ion-header>
-      <ion-toolbar>
-        <ion-title>Directory</ion-title>
-      </ion-toolbar>
-    </ion-header>
     <ion-content :fullscreen="true">
-      <ion-header collapse="condense">
-        <ion-toolbar>
-          <ion-title size="large">Directory</ion-title>
-        </ion-toolbar>
-      </ion-header>
-
       <div>
         <ion-grid>
           <ion-row class="row-dir border-bottom">
@@ -191,12 +180,12 @@
 </template>
 
 <script lang="ts">
-import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/vue';
+import { IonPage, IonContent } from '@ionic/vue';
 import { call } from 'ionicons/icons';
 
 export default  {
   name: 'Directory',
-  components: { IonHeader, IonToolbar, IonTitle, IonContent, IonPage },
+  components: { IonContent, IonPage },
   setup() {
     return {
       call

@@ -2,7 +2,7 @@
   <ion-page>
     <ion-tabs>
       <ion-tab-bar slot="bottom">
-        <ion-tab-button tab="tab1" href="/tabs/advisory">
+        <ion-tab-button href="/tabs/advisory">
           <ion-icon :icon="chatbubbles"></ion-icon>
           <ion-label>Advisories</ion-label>
         </ion-tab-button>
@@ -22,22 +22,21 @@
 </template>
 
 <script lang="ts">
-import { IonTabBar, IonTabButton, IonTabs, IonLabel, IonIcon, IonPage } from '@ionic/vue';
-import { ellipse, square, triangle, cash, newspaper, chatbubbles } from 'ionicons/icons';
+  import { IonTabBar, IonTabButton, IonTabs, IonLabel, IonIcon, IonPage } from '@ionic/vue';
+  import { ellipse, square, triangle, cash, newspaper, chatbubbles } from 'ionicons/icons';
 
-
-export default {
-  name: 'Tabs',
-  components: { IonLabel, IonTabs, IonTabBar, IonTabButton, IonIcon, IonPage },
-  setup() {
-    return {
-      ellipse, 
-      square, 
-      triangle,
-      cash,
-      newspaper,
-      chatbubbles
+  export default {
+    name: 'Tabs',
+    components: { IonLabel, IonTabs, IonTabBar, IonTabButton, IonIcon, IonPage },
+    setup() {
+      return {
+        ellipse, 
+        square, 
+        triangle,
+        cash,
+        newspaper,
+        chatbubbles
+      }
     }
   }
-}
 </script>
